@@ -1,15 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import Home from './pages/Home.js'
+import Shop from './pages/Shop.js'
 import Search from './components/Search.js'
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <div className='bod'>
-        <Search />
-        {/* <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes> */}
+        
+        <Routes>
+            <Route path='/' element={<Search />}/>
+          <Route path='/shop' element={<Shop />} />
+        </Routes>
         </div>
       </BrowserRouter>
       
