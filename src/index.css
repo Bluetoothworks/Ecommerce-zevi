@@ -254,6 +254,7 @@ code {
   box-sizing: border-box;
   width: 100%;
   left: 50%;
+  right: 0;
 }
 .shopcard .s-card .price {
   color: rgba(0, 0, 255, 0.675);
