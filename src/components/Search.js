@@ -85,6 +85,7 @@ import Cards from './Cards';
                         
                     </div>
                     <div className='pop-suggestion'>
+                        <div></div>
                         <p id='p-title'>Popular suggestion</p>
                         {categories && categories.slice(0, 5).map((item, index) => (
             <div key={index}>{item.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}</div>
